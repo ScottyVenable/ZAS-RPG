@@ -17,6 +17,7 @@ namespace ZASRPG
     public int HP {get; set;}
     public int Hunger {get; set;}
     public int Thirst {get; set;}
+    public int Stamina {get; set;}
     
   }
 }
