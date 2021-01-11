@@ -19,5 +19,11 @@ namespace ZASRPG
     public int Thirst {get; set;}
     public int Stamina {get; set;}
     
+    //Stats
+    public int Strength {get; set;}
+    public int Dexterity {get; set;}
+    public int Vitality {get; set;}
+    public int Tech {get; set;}
+    public int Intelligence {get; set;}
   }
 }
