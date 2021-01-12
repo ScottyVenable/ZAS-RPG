@@ -21,4 +21,14 @@ namespace ZASRPG
     public double BuyPrice {get; set;}
     public double SellPrice {get; set;}
     
-    public Item(int id, string name, string description,ptionion}
+    public Item(int id, string name, string description, int weight, string type, double buyprice, double sellprice)
+    {
+      ID = id;
+      Name = name;
+      Description = description;
+      Weight = weight;
+      Type = type;
+      BuyPrice = buyprice;
+      SellPrice = sellprice;
+    }
+  }
