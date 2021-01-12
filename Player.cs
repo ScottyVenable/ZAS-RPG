@@ -14,7 +14,7 @@ namespace ZASRPG
   {
     public string Name { get; set;}
     
-    public int HP {get; set;}
+    public int HitPoints {get; set;}
     public int Hunger {get; set;}
     public int Thirst {get; set;}
     public int Stamina {get; set;}
@@ -23,7 +23,7 @@ namespace ZASRPG
     public int Strength {get; set;}
     public int Dexterity {get; set;}
     public int Vitality {get; set;}
-    public int Tech {get; set;}
     public int Intelligence {get; set;}
+    public int Charisma {get; set;}
   }
 }
