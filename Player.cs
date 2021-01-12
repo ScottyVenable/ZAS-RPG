@@ -25,5 +25,6 @@ namespace ZASRPG
     public int Vitality {get; set;}
     public int Intelligence {get; set;}
     public int Charisma {get; set;}
+ 
   }
 }
